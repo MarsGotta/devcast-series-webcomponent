@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Native Rating WebComponent</title>
+    <script type="module" src="../mars-button.js"></script>
+</head>
+<body>
+    <mars-button value="hello world"></mars-button>
+    <mars-button>
+        Button slotted
+    </mars-button>
+    <script type="module">
+        document.querySelectorAll('mars-button').forEach(function(button) {
+            button.addEventListener('on-click', function(event) {
+                alert('clicked: ' + event.detail.value);
+            });
+        });
+    </script>
+</body>
+</html>

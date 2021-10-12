@@ -1,0 +1,28 @@
+{
+    "name": "@devcast/mars-button",
+    "description": "Webcomponent mars-button following open-wc recommendations",
+    "license": "MIT",
+    "author": "mars-button",
+    "version": "0.0.0",
+    "main": "index.js",
+    "module": "index.js",
+    "scripts": {
+      "analyze": "cem analyze --litelement",
+      "start": "web-dev-server"
+    },
+    "dependencies": {
+      "lit": "^2.0.2"
+    },
+    "devDependencies": {
+      "@custom-elements-manifest/analyzer": "^0.4.17",
+      "@web/dev-server": "^0.1.25"
+    },
+    "eslintConfig": {
+      "root": true,
+      "env": {
+        "node": true
+      },
+      "rules": {}
+    },
+    "customElements": "custom-elements.json"
+  }
