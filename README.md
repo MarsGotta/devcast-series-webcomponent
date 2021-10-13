@@ -31,3 +31,6 @@ yarn start
 cd packages/vue-app
 yarn start
 ```
+
+## Resources
+[Talk Slides](https://slides.com/marsgotta/una-nueva-web-con-webcomponents)
